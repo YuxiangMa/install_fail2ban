@@ -1,17 +1,8 @@
-# install_fail2ban
+# install_fail1ban
 
 # Install Fail2Ban Script
 
 This script automates the installation of Fail2Ban on a Linux server.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -30,5 +21,5 @@ Fail2Ban is a popular intrusion prevention framework that scans log files and ta
 4. Run the script: ./install_fail2ban.sh
 
 ## Configuration
-After installing Fail2Ban, you can configure it by editing the relevant configuration files.
+After installing Fail2Ban, you can configure it by editing the relevant configuration files (sudo nano /etc/fail2ban/jail.local).
 
