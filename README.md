@@ -1,4 +1,3 @@
-# install_fail1ban
 
 # Install Fail2Ban Script
 
