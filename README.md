@@ -30,10 +30,13 @@ Fail2Ban is a popular intrusion prevention framework that scans log files and ta
     ```bash
     ./install_fail2ban.sh
     ```
-
-## Configuration
-
-After installing Fail2Ban, you can configure it by editing the relevant configuration files:
+    
+4. After installing Fail2Ban, you can configure it by editing the relevant configuration files:
 
 ```bash
 sudo nano /etc/fail2ban/jail.local
+```
+
+5. To view the Snort alert log, you can use the following command:
+```bash
+sudo cat /var/log/snort/snort.alert.fast
