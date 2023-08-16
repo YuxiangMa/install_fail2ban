@@ -37,6 +37,7 @@ Fail2Ban is a popular intrusion prevention framework that scans log files and ta
     sudo nano /etc/fail2ban/jail.local
     ```
 
-5. To view the Snort alert log, you can use the following command:
+5. To view the Fail2Ban log, you can use the following command:
     ```bash
-    sudo cat /var/log/snort/snort.alert.fast
+    sudo cat /var/log/fail2ban.log
+
