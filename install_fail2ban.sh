@@ -37,3 +37,5 @@ sudo systemctl restart fail2ban
 sudo systemctl is-enabled fail2ban
 
 echo "Fail2ban installation successful."
+echo  # Empty line 1
+echo  # Empty line 2
