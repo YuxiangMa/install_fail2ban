@@ -8,9 +8,9 @@ sudo apt install fail2ban -y
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 
 # Define new configuration values
-new_bantime="168h"
+new_bantime="720h"
 new_findtime="24h"
-new_maxretry="5"
+new_maxretry="3"
 
 # Replace existing configuration items and display new values
 sudo sed -i "s/^\(bantime\s*=\s*\).*/\1$new_bantime/" /etc/fail2ban/jail.local
